@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+footer {
+    padding: 16px 0;
+    background-color: rgb(32, 32, 135);
+    color: white;
+}
+
+footer p {
+    padding: 0 16px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+header nav li {
+    display: inline;
+    padding: 0 16px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section h1 {
+    padding: 16px 0 0 16px;
+}
+
+section .container {
+    padding: 16px 0;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section .container img {
+    height: 250px;
+    padding: 0 16px;
+}
+
+section .container p {
+    padding: 0 16px;
+}
+
+#redes .container img {
+    height: 50px;
+}
+
+section {
+    padding: 12px 24px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 640px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
